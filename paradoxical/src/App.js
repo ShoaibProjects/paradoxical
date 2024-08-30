@@ -11,7 +11,7 @@ import { MyProvider } from "./MyContext";
 function App() {
   return (
     <MyProvider>
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/paradoxes" element={<Paradoxes />} />
