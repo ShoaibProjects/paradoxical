@@ -14,7 +14,7 @@
     "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://ShoaibProjects.github.io/paradoxical"
+    "homepage": "https://shoaibprojects.github.io/paradoxical"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
