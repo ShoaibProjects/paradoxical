@@ -4,8 +4,17 @@ import Menu from "./components/menu";
 import CtaBtn from "./components/cta-btn";
 import Gap from "./components/gap";
 import Footer from "./components/footer";
+import {useContext, useEffect} from 'react'
+import MyContext from '../MyContext'
 function Home() {
+  const click = useContext(MyContext);
+  useEffect(() => {
+    if (click.sharedState){
+      click.setSharedState(!click.sharedState);
+    }
+  }, []);
   return (
+
     <>
       <div className="bg-slate-900 min-h-screen overflow-hidden">
         <Header></Header>

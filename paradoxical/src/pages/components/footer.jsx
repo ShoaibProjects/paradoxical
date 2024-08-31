@@ -7,7 +7,7 @@ import { ReactComponent as XIcon } from '../../icons/twitterx.svg';
 
 function Footer() {
   return (
-    <div className='w-full h-20 md:h-16 bg-slate-700 flex md:justify-between items-center flex-wrap justify-around py-1 md:py-0 gap-2 md:gap-0'>
+    <div className='w-full h-24 md:h-16 bg-slate-700 flex md:justify-between items-center flex-wrap justify-around py-1 md:py-0 gap-1.5 md:gap-0 pt-3 md:pt-0'>
         <div className='md:ms-4 text-slate-300 hover:text-slate-100 focus:text-slate-100 font-semibold'>&copy; 2024 Shoaib</div>
         <Link to="/" className="font-bold flex gap-1 md:gap-2 text-gray-100 brightness-75 hover:brightness-100 focus:brightness-100 items-center md:text-lg">
                     <img src={`${process.env.PUBLIC_URL}/images/logo.png`} className="h-6 md:h-8" alt="" />

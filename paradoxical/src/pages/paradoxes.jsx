@@ -6,15 +6,23 @@ import Card2 from "./components/card2";
 import Gap from "./components/gap";
 import HR from "./components/hr";
 import Footer from "./components/footer";
+import { useContext, useEffect } from 'react'
+import MyContext from '../MyContext'
 
 function Paradoxes() {
+  const click = useContext(MyContext);
+  useEffect(() => {
+    if (click.sharedState){
+      click.setSharedState(!click.sharedState);
+    }
+  }, []);
   return (
     <>
       <div className="bg-slate-900 min-h-screen max-h-max overflow-hidden">
         <Header></Header>
         <Menu></Menu>
         <Gap></Gap>
-        <h1 className="text-2xl md:text-5xl text-center text-slate-50 font-bold mt-6 mb-4 underline decoration-solid hover:decoration-sky-500 focus:decoration-sky-500 underline-offset-8">Some Common Paradoxes</h1>
+        <h1 className="text-2xl md:text-5xl text-center text-slate-50 font-bold mt-8 md:mt-6 mb-4 underline decoration-solid hover:decoration-sky-500 focus:decoration-sky-500 underline-offset-8" tabindex="0">Some Common Paradoxes</h1>
         <Card src={'https://i.ytimg.com/vi/tE6FOBnrRQY/maxresdefault.jpg'} heading={'The Liar Paradox'} subheading={'"This sentence is false."'} para={`The Liar Paradox is a statement that contradicts itself. The classic example is: "This sentence is false."
 
 If the sentence is true, then it must be false as it says. But if it's false, then it must actually be true. This creates a loop where the sentence can't be true or false without causing a contradiction, making it a paradox.`}></Card>
