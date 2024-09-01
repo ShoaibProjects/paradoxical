@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/paradoxical/static/css/main.20f377ec.css",
-    "main.js": "/paradoxical/static/js/main.3222dc1a.js",
+    "main.js": "/paradoxical/static/js/main.3a26ba9e.js",
     "static/js/453.6f1754c6.chunk.js": "/paradoxical/static/js/453.6f1754c6.chunk.js",
     "static/media/github.svg": "/paradoxical/static/media/github.8c7862fd8974da82dac932c01f0b87d4.svg",
     "static/media/linkedin.svg": "/paradoxical/static/media/linkedin.5e6bc3890ca249549fb5451327b63402.svg",
@@ -11,11 +11,11 @@
     "static/media/cross.svg": "/paradoxical/static/media/cross.eddb2457d47fdc844489761e9e1986ee.svg",
     "static/media/bars.svg": "/paradoxical/static/media/bars.6b63c4eabec862c81a085d0555b4b83f.svg",
     "main.20f377ec.css.map": "/paradoxical/static/css/main.20f377ec.css.map",
-    "main.3222dc1a.js.map": "/paradoxical/static/js/main.3222dc1a.js.map",
+    "main.3a26ba9e.js.map": "/paradoxical/static/js/main.3a26ba9e.js.map",
     "453.6f1754c6.chunk.js.map": "/paradoxical/static/js/453.6f1754c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20f377ec.css",
-    "static/js/main.3222dc1a.js"
+    "static/js/main.3a26ba9e.js"
   ]
 }
